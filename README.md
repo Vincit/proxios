@@ -26,6 +26,6 @@ const newPerson = await api.postPeople({ name: 'Jennifer' });
 const updaterPerson = await api.putPeople(1, { name: 'Jennifer' });
 // PUT { name: 'Jennifer' } https://my-api.com/api/people/1
 
-await api.v2.some.long(1).path.deleteStuff(1);
+await api.v2.some.long[1].path.deleteStuff(1);
 // https://my-api.com/api/v2/some/long/1/path/stuff/1
 ```
