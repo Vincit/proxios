@@ -1,6 +1,6 @@
 # proxios
 
-Magical ES6 Proxy wrapper for axios
+Magically generates and executes HTTP requests using axios based on the accessed properties and functions. ES6 `Proxy` class is used to implement the magic. You can call any method and access any property at any level. The following example is a complete example and you can copy it to a file and run it.
 
 ## Wot?
 
